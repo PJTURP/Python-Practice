@@ -1,10 +1,20 @@
-#Print 1st movie
-print("Black Sheep")
-#Print 2nd movie
-print("Water Boy")
-#Print 3rd movie
-print("Real Steel")
-#Print 4th movie 
-print("Ace Ventura")
-#Print 5th movie 
-print("Tommy Boy")
+def topfivemovies():
+    
+    #print first movie
+    print("Black Sheep")
+    
+    #print second movie
+    print("Water Boy")
+    
+    #print theird movie
+    print("Real Steel")
+    
+    #print fourth movie 
+    print("Ace Ventura")
+    
+    #print fifth movie 
+    print("Tommy Boy")
+
+
+print("these are my top five movies")
+topfivemovies()
