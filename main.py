@@ -1,29 +1,6 @@
 
-def timesTwo(x):
-    print(x*2)
-
-timesTwo(30)
-timesTwo(12)
-timesTwo(10)
-timesTwo(99)
-
-def plusFive(x):
-    print(x+5)
-
-plusFive(37)
-plusFive(5)
-plusFive(23)
-plusFive(67)
-
-
-def divideTwo(x):
-    print(x/2)
-
-divideTwo(400)
-divideTwo(69)
-
-
-def addTwoNumbers(x,y):
-    print(x + y)
-
-addTwoNumbers(10, 59)
+    #Madlib Function
+def madlib(a,b,c,d,e,f,g,h,i,j,k):
+    print("Star Wars is a" + a + b + "of" + c + "far far away. There are "+ d +"battles between" + e + f + "in" + g +"space and" + h + "duels with" + i + "called" + j + "sabers.") 
+        
+madlib("School, scary, wierd, plain, cars, lazy, silly, i, blank, k) 
