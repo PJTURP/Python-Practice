@@ -106,16 +106,3 @@ print("These Are My Top Five")
 
 #topciveall()
 topfiveall()
-
-
-
-#define a function that outputs your name
-#followed by "is my name"
-def mynameis(turtle):
-
-    #output string
-    print(turtle + "is my name.")
-
-#run function
-
-mynameis("Payton")
