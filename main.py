@@ -1,11 +1,29 @@
-#define a function that outputs your name
-#followed by "is my name"
 
-def myNameIs(turtle):
+def timesTwo(x):
+    print(x*2)
 
-    #output string
-    print(turtle + " is my name.")
+timesTwo(30)
+timesTwo(12)
+timesTwo(10)
+timesTwo(99)
 
-#run function
+def plusFive(x):
+    print(x+5)
 
-myNameIs("Payton")
+plusFive(37)
+plusFive(5)
+plusFive(23)
+plusFive(67)
+
+
+def divideTwo(x):
+    print(x/2)
+
+divideTwo(400)
+divideTwo(69)
+
+
+def addTwoNumbers(x,y):
+    print(x + y)
+
+addTwoNumbers(10, 59)
