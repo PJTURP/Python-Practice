@@ -1,21 +1,12 @@
 
-#def function woof
-def woof():
-    return "Woof"
+def greaterThan10(x):
+    if x > 10:
+        return "x is greater than 10."
+    else: 
+        return "x is not greater than 10."
 
-print (woof()) 
+    
 
-#def cat and dog
-def cat():
-    return "cat"
 
-def dog():
-    return "dog"
 
-#print cat + dog 
-print(cat() + dog())
-
-def numberOfPlanets():
-    return 8
-
-print(numberOfPlanets())
+print(greaterThan10(5))
