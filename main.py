@@ -1,14 +1,15 @@
 
-def greaterThan10(x):
+def equalsTen(x):
+    if x==10:
+        
+        return "x equals 10"
     
-    if x > 10:
-        return "x is greater than 10."
-    
-    elif x==10:
-        return "x equels 10."
-    
-    else: 
-        return "x is not greater than 10."
+    elif x > 10:
+        return "x is greater than 10"
 
-    
-print(greaterThan10(5))
+    else:
+       
+        return "x is not equal to 10"
+       
+ 
+print(equalsTen(10))
