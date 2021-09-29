@@ -38,5 +38,6 @@ def define(word):
     else:
         return "Your word dose not exist, leave."
 
+
 #run dictionary
 print(define("lol"))
