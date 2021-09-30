@@ -1,10 +1,14 @@
-def twoBigNumbers(x,y,z):
-
-
-    if x > 10 or (y < 10 and z == 5) :
-        
-        return True
+def function():
     
-    else:
-        
-        return False
+    count = 1
+    
+    potato = 1
+
+while potato <= 10:
+    while count <= 10:
+        print(count)
+        count = count + 1
+    potato = potato + 1
+    count = 1
+
+function()
